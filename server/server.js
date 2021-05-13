@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const basic = require('./routes/index');
 const cors = require('cors');
+const request = require('request');
 
 app.use(cors());
 app.use('/', basic);

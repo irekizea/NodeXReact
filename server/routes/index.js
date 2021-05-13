@@ -2,7 +2,7 @@ let express = require('express');
 let router = express.Router();
 
 router.get('/', function(req, res){
-    res.send({greeting :'hello react x node.js'});
+    res.send({data:'hell world'});
 });
 
 module.exports = router;
